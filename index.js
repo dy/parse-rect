@@ -18,12 +18,22 @@ function parseRect (arg) {
   }
 
   // 0, 0, 100, 100 - array-like
-  if (arg.length && typeof arg[3] === 'number') {
-    rect = {
-      x: arg[0],
-      y: arg[1],
-      width: (arg[2] - arg[0]) || 0,
-      height: (arg[3] - arg[1]) || 0
+  if (arg.length && typeof arg[0] === 'number') {
+    if (arg.length === 2) {
+      rect = {
+        width: arg[0],
+        height: arg[1],
+        x: 0,
+        y: 0
+      }
+    }
+    else {
+      rect = {
+        x: arg[0],
+        y: arg[1],
+        width: (arg[2] - arg[0]) || 0,
+        height: (arg[3] - arg[1]) || 0
+      }
     }
   }
   else if (arg) {

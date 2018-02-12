@@ -14,3 +14,5 @@ assert.deepEqual(parseRect({ left: 10, top: 20, right: 100, bottom: 100 }), res)
 
 var res = {x: 0, y: 0, width: 90, height: 80}
 assert.deepEqual(parseRect({ width: 90, height: 80 }), res)
+
+assert.deepEqual(parseRect([10, 20]), {width: 10, height: 20, x: 0, y: 0})
