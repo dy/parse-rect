@@ -18,8 +18,7 @@ parseRect({ left: 10, top: 20, right: 100, bottom: 100 })
 
 // {x: 0, y: 0, width: 90, height: 80}
 parseRect({ width: 90, height: 80 })
-parseRect([ width: 90, height: 80 ])
-
+parseRect([ 90, 80 ])
 ```
 
 ## License
