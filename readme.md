@@ -1,4 +1,4 @@
-# parse-rect [![experimental](https://img.shields.io/badge/stability-unstable-green.svg)](http://github.com/badges/stability-badges) [![Build Status](https://travis-ci.org/dfcreative/parse-rect.png)](https://travis-ci.org/dfcreative/parse-rect)
+# parse-rect [![experimental](https://img.shields.io/badge/stability-unstable-green.svg)](http://github.com/badges/stability-badges) [![Build Status](https://travis-ci.org/dy/parse-rect.png)](https://travis-ci.org/dy/parse-rect)
 
 Take any rectangle-like argument and return rectangle values.
 
